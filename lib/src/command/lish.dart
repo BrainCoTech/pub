@@ -67,7 +67,7 @@ class LishCommand extends PubCommand {
   Future _publish(List<int> packageBytes) async {
     Uri cloudStorageUrl;
     try {
-      await oauth2.withClient(cache, (client) {
+      await Future.value(http.Client()).then((client) {
         return log.progress('Uploading', () async {
           // TODO(nweiz): Cloud Storage can provide an XML-formatted error. We
           // should report that error and exit.
