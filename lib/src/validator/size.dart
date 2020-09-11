@@ -10,7 +10,7 @@ import '../io.dart';
 import '../validator.dart';
 
 /// The maximum size of the package to upload (100 MB).
-const _MAX_SIZE = 100 * 1024 * 1024;
+const _MAX_SIZE = 150 * 1024 * 1024;
 
 /// A validator that validates that a package isn't too big.
 class SizeValidator extends Validator {

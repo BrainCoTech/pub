@@ -5,7 +5,7 @@ Pub is the package manager for Dart.
 # 生成运行文件(在publish时可以跳过oauth2验证)
 --snapshot用来设置运行文件名称
 ```
-dart --snapshot=skipoauth.dart.snapshot bin/pub.dart
+dart --snapshot=skipoauth150mb.dart.snapshot bin/pub.dart
 ```
 
 # Contributing to pub
