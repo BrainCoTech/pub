@@ -7,6 +7,8 @@ Pub is the package manager for Dart.
 ```
 dart --snapshot=skipoauth.snapshot bin/pub.dart
 ```
+
+# Remember set ```publish_to: http://47.111.166.90:8081```
 ```
 pub publish --dry-run # 发布预校验,不会真正执行发布，根据报错提示修改
 dart skipoauth.snapshot publish # 上传到私服
